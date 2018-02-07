@@ -14,18 +14,18 @@ if (!is_null($events['events'])) {
 			$text = $event['message']['text'];
 			// Get replyToken
 			$replyToken = $event['replyToken'];
-			if($text == 'Hello'){
+			if($text == 'สวัสดี'){
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
 					'text' => 'สวัสดีครัชช'
 				];
 			}
-			else if($text == 'Test'){
+			else if($text == 'เป็นยังไง'){
 				// Build message to reply back
 				$messages = [
 					'type' => 'text',
-					'text' => 'ทดสอบๆ'
+					'text' => 'สบายดี'
 				];
 			}
 		
